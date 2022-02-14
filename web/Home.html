@@ -1,0 +1,145 @@
+<!--BIT 607 - A3
+    Alex RB
+    5038417 -->
+
+    <!DOCTYPE html>
+    <html>
+    <title alt="Haukai Home Page">HAUKAI Restaurant</title>
+    
+    <head>
+      <!--meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <!--Linking W3 CSS-->
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!--Preloading fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel='preload' as='style'
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap">
+      <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+      <!--Linking to stylesheet-->
+      <link rel="stylesheet" href="../CSS/HaukaiCSS.css">
+      <!--Linking the JS Javascript file-->
+      <script src="../JavaScript/HaukaiJavaScript.js"></script>
+    </head>
+    
+    <body>
+    
+      <!-- Menu (sit on top) -->
+      <div class="w3-top" role="menubar">
+        <div class="w3-row w3-black">
+          <div class="w3-col s2">
+            <a href="./home.html" class="w3-button w3-block w3-white" alt="Home">HOME</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="./Webpages/HaukaiReservations.html" class="w3-button w3-block w3-white" alt="Reservations">RESERVATIONS</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="./Webpages/HaukaiMenu.html" class="w3-button w3-block w3-white" alt="Menu">MENU</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="./Webpages/HaukaiHours.html" class="w3-button w3-block w3-white" alt="Hours">HOURS</a>
+          </div>
+          <!--This is different as it links to a section further down the page-->
+          <div class="w3-col s2">
+            <a href="#about" class="w3-button w3-block w3-white" alt="About">ABOUT</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="./Webpages/HaukaiContact.html" class="w3-button w3-block w3-white" alt="Contact">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Header with image -->
+    
+      <header class="bgimghome w3-display-container" id="home" alt="Restaurant">
+        <div class="w3-display-bottomleft w3-center w3-padding-large">
+          <span class="w3-tag"><a href="./private/staffportal.html">Staff Login</a></span>
+        </div>
+        <div class="w3-display-middle w3-center">
+          <span style="font-size:8vw; font-family: 'Quicksand'; color: #BBDBE0; " alt="HAUKAI">H A U K A I</span>
+          <!--Extra button in the middle to take user to reservations page-->
+          <span><a href="./Webpages/HaukaiReservations.html" class="w3-button w3-xlarge w3-white" alt="Make a booking">Make a
+              Booking</a></span>
+        </div>
+        <!--Location information with link to Conact/Map page-->
+        <div class="w3-display-bottomright w3-center w3-padding-large">
+          <span class="w3-text-white" alt="1 Island Street">1 ISLAND STREET<br><a href="./Webpages/HaukaiContact.html#location"
+              alt="Kerikeri">KERIKERI</a></span>
+        </div>
+    
+      </header>
+    
+    
+      <!-- About Container -->
+    
+      <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide" alt="About Haukai">ABOUT HAUKAI</span></h5>
+          <p><img src="../Images/HaukaiLogo.png" alt="HaukaiMark" width="100%"></p>
+          <p class="w3-center">Haukai is a restaurant based in the stunning Bay of Islands specialising in traditional Maori
+            Kai.</p>
+          <br>
+          <p class="w3-center">As well as our world class menu and expertise in fine dining we also provide our customers
+            with an authentic Maori experience.</p>
+          <br>
+          <p class="w3-center">Make a reservation now to ensure you don't miss out.</p>
+          <img src="../Images/Salad.png" alt="Salad" style="width:100%;max-width:1000px" class="w3-margin-top">
+          <br>
+          <br>
+        </div>
+      </div>
+    
+      <!--Privacy Statement-->
+    
+      <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide" alt="Privacy Statement">Privacy Statement</span>
+          </h5>
+          <p><img src="../Images/HaukaiLogo.png" alt="HaukaiMark" width="100%"></p>
+          <p class="w3-center" alt="Privacy Statement">
+            We collect personal information from you, including your:
+            name and
+            contact information.
+            We collect your personal information in order to:
+            take table reservations and contact our customers.
+            Providing some information is optional. If you choose not to enter a name or contact details, we'll be unable to
+            complete a table reservation for you.
+            We keep your information safe by storing it on our secure booking system and only allow approved staff to view
+            it.
+            You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be
+            corrected if you think it is wrong. If you’d like to ask for a copy of your information, or to have it
+            corrected, please contact us at bookings@haukai.co.nz, or 09 401 4019, or 1 Island Street, Kerikeri, Bay of
+            Islands.
+          </p>
+          <br>
+        </div>
+      </div>
+    
+    
+      <!-- Footer -->
+      <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+        <div class="row">
+          <div class="column">
+            <p><img src="../Images/Footerlogo.png" alt="Haukai logo"></p>
+          </div>
+          <div class="column" alt="Opening hours">
+            <h2>Hours</h2>
+            <p>Wednesday - Saturday</p>
+            <p>5PM - 10PM</p>
+            <p>BOOKINGS ESSENTIAL</p>
+          </div>
+          <div class="column" alt="Contact information">
+            <h2>Contact</h2>
+            <p>PH: 09 401 4019</p>
+            <p>E-MAIL: bookings@haukai.co.nz</p>
+            <p>ADDRESS: 1 Island Street, Kerikeri, Bay of Islands</p>
+          </div>
+        </div>
+      </footer>
+    
+    </body>
+    
+    </html>

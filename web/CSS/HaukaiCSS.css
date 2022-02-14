@@ -1,0 +1,93 @@
+/* BIT 607 - A3
+    Alex RB
+    5038417 */
+
+/* Importing Fonts for Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* color: #ADC1C4; */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Nanum Gothic", "Quicksand", sans-serif;
+  
+  
+}
+
+.bgimghome {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../Images/HaukaiRestaurant.png");
+  min-height: 100%;
+  display: flex;
+}
+
+.bgimgbooking {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../Images/reservationbgimage.jpeg");
+  min-height: 100%;
+  display: flex;
+}
+
+.bgimgmenu {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../Images/Salad.png");
+  min-height: 100%;
+  display: flex;
+}
+
+.bgimgcontact {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../Images/BoI.jpeg");
+  min-height: 100%;
+  display: flex;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  padding-top: 40px;
+
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
